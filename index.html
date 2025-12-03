@@ -16,7 +16,6 @@
     </header>
 
     <main>
-        <!-- Secțiune Galerie adăugată de Studentul A -->
         <section id="galerie">
             <h2>Galerie Foto</h2>
             <div class="gallery-grid">
@@ -27,11 +26,20 @@
             </div>
             <p>Explorați colecția noastră de imagini.</p>
         </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2025 Proiect Git</p>
-        <p>Toate drepturile rezervate.</p>
-    </footer>
-</body>
-</html>
+        <section id="contact">
+            <h2>Contactează-ne</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nume">Nume complet:</label>
+                    <input type="text" id="nume" name="nume" placeholder="Introduceți numele" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplu@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea id="mesaj" name="mesaj" rows="5" placeholder="Scrie mesajul tău aici..." required></textarea>
